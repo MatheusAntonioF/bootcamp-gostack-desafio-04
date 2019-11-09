@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased !important;
+  background-color: #dadbd3;
+}
+
+div#header {
+  width: 100%;
+  padding: 0.5%;
+
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #3260df;
+  color: rgb(233, 233, 233);
+}
+div#header h1 > img {
+  height: 24px;
+}
+div#header > div {
+  display: flex;
+  align-items: center;
+}
+div#header > div i {
+  margin-left: 8px;
+}
+
+div#container {
+  width: 65%;
+  padding: 3%;
+  background-color: #edeee8;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+div#post h3 {
+  margin-left: 2%;
+}
+
+div#post small {
+  color: #838486;
+  margin-left: 2%;
+}
+
+p#contentPost {
+  margin-top: 3%;
+}
+
+p#comment {
+  margin-top: 4%;
+  margin-left: 3%;
+  padding: 3%;
+  background-color: #848588;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
